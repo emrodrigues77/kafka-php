@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Send a Message</title>
+</head>
+
+<body>
+    <h1>Send a Message</h1>
+    <form action="producer.php" method="post">
+        <p>
+            <label for="topic">Topic:</label><br>
+            <input type="text" name="topic" id="topic" value="test">
+        </p>
+        <p>
+            <label for="message">Message:</label><br>
+            <input type="text" name="message" id="message">
+        </p>
+        <p>
+            <label for="key">Key:</label><br>
+            <input type="text" name="key" id="key">
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+</body>
+
+</html>

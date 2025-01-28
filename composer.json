@@ -1,0 +1,15 @@
+{
+    "name": "emrodrigues77/kafka-php",
+    "description": "PHP simplest study on Kafka, using nmred/kafka-php.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eduardo Rodrigues",
+            "email": "eduardo@eduardo.rodrigues.nom.br"
+        }
+    ],
+    "require": {
+        "nmred/kafka-php": "0.2.*",
+        "monolog/monolog": "^2.10"
+    }
+}
